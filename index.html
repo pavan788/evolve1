@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfume Paradise</title>
+    <style>
+      body {
+        font-family: "Courier New", monospace;
+        margin: 0;
+        padding: 0;
+        background-color: #fff4f4;
+        color: #333;
+      }
+
+      header {
+        background: linear-gradient(to right, #73a4ff, #a1ffcd);
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      header h1 {
+        font-size: 50px;
+      }
+
+      header p {
+        font-size: 40px;
+      }
+
+      nav {
+        background-color: #f1e2ff;
+        padding: 10px 0;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        font-size: 1.1em;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #333;
+      }
+
+      /* Summary Section */
+      .summary {
+        padding: 40px 20px;
+        background-color: #ffffff;
+        text-align: center;
+      }
+
+      .summary h2 {
+        font-size: 2.5em;
+        color: #000000;
+      }
+
+      .summary p {
+        font-size: 1.2em;
+        color: #000000;
+        max-width: 800px;
+        margin: 20px auto;
+        font-style: italic;
+      }
+
+      .banner {
+        position: relative;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+        font-size: 2.5em;
+        font-family: "Georgia", serif;
+        background: url("Images/Evolve1.jpg") no-repeat center center;
+        background-size: cover;
+      }
+
+      .banner img {
+        display: none;
+      }
+
+      .products {
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        background-color: #f9f9f9;
+      }
+
+      .product {
+        border: 1px solid #ddd;
+        padding: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .product:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .product img {
+        max-width: 100%;
+        border-radius: 15px;
+        margin-bottom: 15px;
+      }
+
+      .product h2 {
+        font-size: 1.5em;
+        color: #6f3e4f;
+      }
+
+      .product p {
+        font-size: 1.2em;
+        color: #333;
+        margin-top: 10px;
+      }
+
+      /* Contact Section */
+      .contact {
+        background-color: #e8f7f3;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .contact h2 {
+        font-size: 2.5em;
+        color: #6f3e4f;
+      }
+
+      .contact p {
+        font-size: 1.2em;
+        color: #333;
+        margin: 10px 0;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+      }
+
+      footer p {
+        font-size: 0.9em;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>EVOLVE - The Luxury</h1>
+      <p>Discover your signature scent</p>
+    </header>
+
+    <!-- Summary Section -->
+    <section class="summary">
+      <h2>Welcome to EVOLVE - The Luxury</h2>
+      <p>
+        At Evolve, we bring you the essence of luxury with every spritz. Our
+        perfumes are inspired by the most iconic scents worn by your favorite
+        celebrities. Whether you're looking for something fresh and light, or
+        rich and bold, Evolve offers fragrances that embody the glamour and
+        allure of the stars. Each scent is carefully crafted to bring you the
+        same captivating experience that celebrities enjoy, all while ensuring
+        affordability and elegance. Discover your signature scent with Evolve
+        and step into the world of celebrity-inspired luxury.
+      </p>
+    </section>
+
+    <div class="banner">
+      <img src="Images/Evolve1.jpg" alt="Perfume 1" />
+    </div>
+
+    <section class="products">
+      <div class="product">
+        <img src="Images/Dew_Drops.jpg" alt="Perfume 1" />
+        <p>Excellent Fragrance</p>
+        <h2>Dew Drops</h2>
+        <p>₹ 399.00</p>
+      </div>
+      <div class="product">
+        <img src="Images/Golden_Nector.jpg" alt="Perfume 2" />
+        <p>Essence of CR 7</p>
+        <h2>Golden Nector</h2>
+        <p>₹ 449.00</p>
+      </div>
+      <div class="product">
+        <img src="Images/Blue_Bell.jpg" alt="Perfume 3" />
+        <p>Essence of Gucci Flora</p>
+        <h2>Blue Bell</h2>
+        <p>₹ 399.00</p>
+      </div>
+      <div class="product">
+        <img src="Images/Millionare1.jpg" alt="Perfume 3" />
+        <p>Million Dollar</p>
+        <h2>Millionaire</h2>
+        <p>₹ 599.00</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>
+        <a
+          href="evolve_the_luxury"
+          target="https://www.instagram.com/evolve_the_luxury?igsh=NjNvcnZwMHVjcm52"
+          style="color: #6f3e4f; text-decoration: none"
+          >Instagram: evolve_the_luxury</a
+        >
+      </p>
+      <p>Phone: +91 6366458783</p>
+      <p>Address: Attiguppe Bangalore</p>
+      <p>
+        To place an order, WhatsApp us:
+        <a
+          href="https://wa.me/916366458783"
+          target="6362143968"
+          style="color: #25d366; text-decoration: none"
+          >Click here</a
+        >
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 EVOLVE. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
